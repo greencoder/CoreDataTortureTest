@@ -1,9 +1,8 @@
 //
-//  CoreDataStack.h
-//  Diary
+//  SNCoreDataStack.h
+//  CoreDataConcurencyTest
 //
-//  Created by Scott Newman on 5/20/14.
-//  Copyright (c) 2014 Newman Creative. All rights reserved.
+//  Created by Scott Newman on 9/23/14.
 //
 
 #import <Foundation/Foundation.h>
