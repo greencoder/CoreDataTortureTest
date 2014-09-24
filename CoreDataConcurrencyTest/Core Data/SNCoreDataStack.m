@@ -89,7 +89,7 @@
         _privateQueueContext = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
         _privateQueueContext.persistentStoreCoordinator = self.persistentStoreCoordinator;
     }
-    return _mainQueueContext;
+    return _privateQueueContext;
 }
 
 - (NSManagedObjectModel *)managedObjectModel
